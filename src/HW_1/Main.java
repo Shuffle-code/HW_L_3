@@ -53,6 +53,8 @@ public class Main {
         System.out.println("Сравнение");
         System.out.println(appleBoxFruit.compareMy(orangeBoxFruit));
         System.out.println(appleBoxFruit.compare(orangeBoxFruit));
+        appleBoxFruit.pourOver(orangeBoxFruit);
+        System.out.println(orangeBoxFruit.clone(appleBoxFruit));
 
         for (int i = 0; i < array.length; i++) {
             array [i] = DayOfWeek.of(i+1).toString();
